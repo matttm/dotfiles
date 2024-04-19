@@ -1,0 +1,6 @@
+[includeIf "gitdir:~/projects/work/"]
+  path = .gitconfig.softrams
+[includeIf "gitdir:~/projects/play/"]
+  path = .gitconfig.personal
+[includeIf "gitdir:~/go/"]
+  path = .gitconfig.personal
