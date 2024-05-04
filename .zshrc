@@ -129,3 +129,5 @@ alias ll="eza -al"
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
+alias vi="nvim"
+
