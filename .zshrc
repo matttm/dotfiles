@@ -131,3 +131,6 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 alias vi="nvim"
 
+# add shell integration
+eval "$(fzf --zsh)"
+
