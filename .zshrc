@@ -131,6 +131,7 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 alias vi="nvim"
 
+# fzf was installed w brew
 # add shell integration
 eval "$(fzf --zsh)"
 
