@@ -739,17 +739,20 @@ require("lazy").setup({
 		-- change the command in the config to whatever the name of that colorscheme is
 		--
 		-- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`
-		"nyoom-engineering/oxocarbon.nvim", --  'folke/tokyonight.nvim',
-		priority = 1000, -- make sure to load this before all the other start plugins
-		init = function()
-			-- Load the colorscheme here.
-			-- Like many other themes, this one has different styles, and you could load
-			-- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-			vim.cmd.colorscheme("oxocarbon") -- 'tokyonight-night'
+		-- "nyoom-engineering/oxocarbon.nvim",
+		-- --  'folke/tokyonight.nvim',
+		"maxmx03/fluoromachine.nvim",
+		config = function()
+			local fm = require("fluoromachine")
 
-			-- You can configure highlights by doing something like
-			vim.cmd.hi("Comment gui=none")
+			fm.setup({
+				glow = true,
+				theme = "retrowave",
+			})
+
+			vim.cmd.colorscheme("fluoromachine")
 		end,
+		priority = 1000, -- make sure to load this before all the other start plugins
 	},
 
 	-- Highlight todo, notes, etc in comments
