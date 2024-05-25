@@ -48,4 +48,5 @@ live_config_reload = true
     y = 2
 
 [window]
-# decorations = "Buttonless"
+    decorations = "Buttonless"
+    startup_mode = "SimpleFullscreen"
