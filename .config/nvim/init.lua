@@ -849,6 +849,7 @@ require("lazy").setup({
 	-- require("kickstart.plugins.gitsigns"), -- adds gitsigns recommend keymaps
 	require("kickstart.plugins.hlchunk"), -- adrequire("kickstart.plugins.hlchunk"), -- adds gitsigns recommend keymaps
 	require("kickstart.plugins.lualine.lualine"), -- adds gitsigns recommend keymaps
+	require("kickstart.plugins.oil"),
 	-- {
 	--	"ThePrimeagen/vim-be-good", -- game for better vimming
 	-- },
