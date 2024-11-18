@@ -27,7 +27,7 @@ live_config_reload = true
         style  = "Italic"
 
     [font.normal]
-        family = "MesloLGS NF" # "Fira Code"
+        family = "MesloLGS Nerd Font" # "Fira Code"
         #family = "MesloLGS Nerd Font Mono"
         style  = "Regular"
 
@@ -49,4 +49,4 @@ live_config_reload = true
 
 [window]
     decorations = "Buttonless"
-    startup_mode = "SimpleFullscreen"
+    startup_mode = "Fullscreen"
