@@ -739,20 +739,62 @@ require("lazy").setup({
 		-- change the command in the config to whatever the name of that colorscheme is
 		--
 		-- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`
-		-- "nyoom-engineering/oxocarbon.nvim",
-		-- --  'folke/tokyonight.nvim',
+		--  "nyoom-engineering/oxocarbon.nvim",
+		--  'folke/tokyonight.nvim',
 		"maxmx03/fluoromachine.nvim",
 		config = function()
 			local fm = require("fluoromachine")
 
 			fm.setup({
 				glow = true,
-				theme = "retrowave",
+				theme = "fluoromachine",
 			})
 
 			vim.cmd.colorscheme("fluoromachine")
 		end,
-		priority = 1000, -- make sure to load this before all the other start plugins
+		--  "catppuccin/nvim",
+		--  name = "catppuccin",
+		--  config = function()
+		--  	require("catppuccin").setup({
+		--  		no_italic = true,
+		--  		term_colors = true,
+		--  		transparent_background = false,
+		--  		styles = {
+		--  			comments = {},
+		--  			conditionals = {},
+		--  			loops = {},
+		--  			functions = {},
+		--  			keywords = {},
+		--  			strings = {},
+		--  			variables = {},
+		--  			numbers = {},
+		--  			booleans = {},
+		--  			properties = {},
+		--  			types = {},
+		--  		},
+		--  		color_overrides = {
+		--  			mocha = {
+		--  				base = "#000000",
+		--  				mantle = "#000000",
+		--  				crust = "#000000",
+		--  			},
+		--  		},
+		--  		integrations = {
+		--  			telescope = {
+		--  				enabled = true,
+		--  				style = "nvchad",
+		--  			},
+		--  			dropbar = {
+		--  				enabled = true,
+		--  				color_mode = true,
+		--  			},
+		--  		},
+		--  	})
+
+		--  	-- setup must be called before loading
+		--  	vim.cmd.colorscheme("catppuccin")
+		--  end,
+		priority = 1000,
 	},
 
 	-- Highlight todo, notes, etc in comments
