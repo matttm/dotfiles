@@ -1,5 +1,8 @@
 return {
-    "scottmckendry/cyberdream.nvim",
-    lazy = false,
-    priority = 1000,
+	"scottmckendry/cyberdream.nvim",
+	lazy = false,
+	config = function()
+		vim.cmd.colorscheme("cyberdream")
+	end,
+	priority = 1000,
 }

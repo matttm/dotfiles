@@ -4,3 +4,5 @@
   path = .gitconfig.personal
 [includeIf "gitdir:~/go/"]
   path = .gitconfig.personal
+[http]
+	postBuffer = 524288000

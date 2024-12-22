@@ -1,6 +1,6 @@
 # config path: '~/.config/alacritty/alacritty.toml'
 import = [
-    "~/.config/alacritty/themes/themes/crystal.toml"
+    "~/.config/alacritty/themes/themes/cyberdream.toml"
 ]
 
 live_config_reload = true
