@@ -258,7 +258,7 @@ require("lazy").setup({
 	-- Then, because we use the `config` key, the configuration only runs
 	-- after the plugin has been loaded:
 	--  config = function() ... end
-
+	{ dir = "~/terminal-hack.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
 	require("kickstart.plugins.which-key"),
 	require("kickstart.plugins.telescope"),
 	require("kickstart.plugins.nvim-lspconfig"),
