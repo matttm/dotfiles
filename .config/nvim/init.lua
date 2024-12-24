@@ -259,6 +259,8 @@ require("lazy").setup({
 	-- after the plugin has been loaded:
 	--  config = function() ... end
 	{ dir = "~/terminal-hack.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
+	require("kickstart.plugins.lazydev"),
+	{ "Bilal2453/luvit-meta", lazy = true },
 	require("kickstart.plugins.which-key"),
 	require("kickstart.plugins.telescope"),
 	require("kickstart.plugins.nvim-lspconfig"),
