@@ -260,7 +260,6 @@ require("lazy").setup({
 	-- Then, because we use the `config` key, the configuration only runs
 	-- after the plugin has been loaded:
 	--  config = function() ... end
-	{ dir = "~/terminal-hack.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
 	require("kickstart.plugins.lazydev"),
 	{ "Bilal2453/luvit-meta", lazy = true },
 	require("kickstart.plugins.which-key"),
