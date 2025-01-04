@@ -118,6 +118,15 @@ export PATH="$PATH:/Users/matt.maloney/nvim-macos/bin"
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=$PATH:$(go env GOPATH)/bin
 
+# For docker: brew install docker colima
+# For docker-compose: brew install docker-compose
+#
+# Then add the following to your ~/.docker/config.json
+#
+#   "cliPluginsExtraDirs": [
+#      "/opt/homebrew/lib/docker/cli-plugins"
+#  ]
+
 export ACOMS_NPM_TOKEN="cmVmdGtuOjAxOjE3NDE4NzQzMjY6S2dONUVJMTVydUFYTUdBSlMzQ2g0ZWhzYU5j"
 
 alias ll="eza -al"
