@@ -1,0 +1,26 @@
+
+# Fallout 3 Terminal Theme (Example)
+
+[colors.primary]
+background = '#0F220B' # Dark Green-ish background
+foreground = '#31E833' # Green text color
+
+[colors.normal]
+black = '#000000'
+red = '#800000'
+green = '#008000'
+yellow = '#808000'
+blue = '#000080'
+magenta = '#800080'
+cyan = '#008080'
+white = '#c5c5c5'
+
+[colors.bright]
+black = '#7f7f7f'
+red = '#ff0000'
+green = '#00ff00'
+yellow = '#ffff00'
+blue = '#5c5cff'
+magenta = '#ff00ff'
+cyan = '#00ffff'
+white = '#ffffff'

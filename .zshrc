@@ -126,8 +126,10 @@ export PATH=$PATH:$(go env GOPATH)/bin
 #   "cliPluginsExtraDirs": [
 #      "/opt/homebrew/lib/docker/cli-plugins"
 #  ]
+#  
+#  To simulate docker, install colima
 
-export ACOMS_NPM_TOKEN="cmVmdGtuOjAxOjE3NDE4NzQzMjY6S2dONUVJMTVydUFYTUdBSlMzQ2g0ZWhzYU5j"
+export ACOMS_NPM_TOKEN="cmVmdGtuOjAxOjE3NzQzNjY5NDM6ZWhZOEhZMWJHVHE0UlZyM1lLOFdKUkxTV3hM"
 
 alias ll="eza -al"
 
