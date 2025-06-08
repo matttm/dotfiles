@@ -50,4 +50,7 @@
 
 [window]
     decorations = "Buttonless"
-    startup_mode = "Fullscreen"
+    # for cyberdream, use https://wallhaven.cc/w/zy3l5o as bg
+    opacity = 0.75
+    blur = true
+    startup_mode = "SimpleFullscreen"  # "Fullscreen"
