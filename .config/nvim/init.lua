@@ -268,7 +268,7 @@ require("lazy").setup({
 	require("kickstart.plugins.conform"),
 	require("kickstart.plugins.nvim-cmp"),
 
-	require("custom.colorschemes.cyberdream"),
+	require("custom.colorschemes.fluromachine"),
 
 	-- Highlight todo, notes, etc in comments
 	{

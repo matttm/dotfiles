@@ -8,8 +8,8 @@ return {
 
 			fm.setup({
 				glow = true,
-				theme = "fluoromachine",
-				transparent = true,
+				theme = "retrowave",
+				transparent = false,
 			})
 
 			vim.cmd.colorscheme("fluoromachine")
