@@ -129,7 +129,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 #  
 #  To simulate docker, install colima
 
-export ACOMS_NPM_TOKEN="cmVmdGtuOjAxOjE3NzQzNjY5NDM6ZWhZOEhZMWJHVHE0UlZyM1lLOFdKUkxTV3hM"
+export ACOMS_NPM_TOKEN="cmVmdGtuOjAxOjE4MDYwMTE4MDE6aldvZlJxZTVZbm9MazNUcURYN2ozTlF1a2FT"
 
 alias ll="eza -al"
 
