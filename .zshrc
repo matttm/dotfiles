@@ -9,7 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export PATH="/opt/homebrew/bin:$PATH"        
 export PATH="$HOME/nvim-macos/bin:$PATH"     
 export PATH="$PATH:$HOME/go/bin"             
-
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 # 3. SOURCE SECRETS
 # Loads sensitive tokens from the separate file
 [[ ! -f ~/.secrets ]] || source ~/.secrets
